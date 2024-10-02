@@ -25,6 +25,7 @@ table {
 
 #page-selection > li > a {
     text-decoration: solid;
+    color: rgb(0, 128, 255);
 }
 
 #name {

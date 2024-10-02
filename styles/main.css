@@ -1,0 +1,32 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, p, address, dd, dt {
+    padding: 0.3rem;
+    padding-left: 1rem;
+}
+
+table {
+    padding: 1rem;
+}
+
+a {
+    text-decoration: solid;
+}
+
+#page-selection {
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#page-selection > li {
+    display: inline;
+    margin-right: 3rem;
+    margin-left: 1.5rem;
+}
+
+#name {
+    font-size: 30px;
+}

@@ -28,6 +28,10 @@ table {
     color: rgb(0, 128, 255);
 }
 
+#page-selection > li > a:hover {
+    text-decoration: underline;
+}
+
 #name {
     font-size: 30px;
 }

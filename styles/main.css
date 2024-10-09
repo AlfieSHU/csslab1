@@ -29,8 +29,15 @@ td {
 
 #page-selection > li {
     display: inline;
-    margin-right: 3rem;
     margin-left: 1.5rem;
+    border-left:#ccc 1px solid;
+    padding-left: 30px;
+}
+
+li:first-of-type {
+    border-left: none !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
 }
 
 #page-selection > li > a {

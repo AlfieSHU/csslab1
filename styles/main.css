@@ -49,3 +49,7 @@ td {
 #name {
     font-size: 30px;
 }
+
+.highlighted {
+    color: #ff0000;
+}

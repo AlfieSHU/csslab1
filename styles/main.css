@@ -1,12 +1,15 @@
+/* set font on whole site */
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* text padding */
 h1, h2, h3, p, address, dd, dt {
     padding: 0.3rem;
     padding-left: 1rem;
 }
 
+/* table styling */
 table {
     padding: 1rem;
 }
@@ -21,6 +24,7 @@ td {
     padding: 5px;
 }
 
+/* page selection buttons */
 #page-selection {
     align-items: center;
     vertical-align: middle;
@@ -34,6 +38,7 @@ td {
     padding-left: 30px;
 }
 
+/* remove border from first button */
 li:first-of-type {
     border-left: none !important;
     padding-left: 0px !important;
@@ -57,10 +62,12 @@ li:first-of-type {
     font-size: 30px;
 }
 
+/* red text */
 .highlighted {
     color: #ff0000;
 }
 
+/* margin around main page content */
 .container {
     margin: 10px 50px 20px 30px;
 }
